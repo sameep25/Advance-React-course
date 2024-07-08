@@ -6,6 +6,7 @@ import UseStateHook from "./moudule/components/hooks/UseStateHook";
 import cakes from "./cakeData";
 // import { ThemeProvider } from "./context/ThemeContext";
 import Switch from "./moudule/components/Switch";
+import UseEffectHook from "./moudule/components/hooks/UseEffectHook";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <Lists cakeList={cakes} />
       <Forms />
       <Switch /> */}
-      <UseStateHook />
+      {/* <UseStateHook /> */}
+      <UseEffectHook />
     </div>
   );
 }
